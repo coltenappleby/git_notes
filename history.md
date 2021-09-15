@@ -1,9 +1,9 @@
 # History and Background
 
-### About
+## About
 excel_file_final_final_finalv3.xlsx is version control - just a terrible way to do it
 
-### History
+## History
 
 
 Source Code Control System (SCCS)
@@ -56,3 +56,32 @@ Git
 - many working copies
 - each woth their own combination of change sets
 - Encourages participation and forking of projects
+
+
+## Configuration
+
+git config files live at three levels
+1. System
+2. User
+3. Project
+
+You can edit them by using the ``` git config ``` command
+
+1. System <br>
+``` git config --system ```
+2. User <br>
+``` git config --global ```
+3. Project <br>
+``` git config ```
+
+### Types of config: <br>
+change config information:<br>
+``` git config --global user.name "Colten Appleby" ``` <br>
+``` git config --global user.email "email@email.com" ``` <br>
+``` git config --global core.editor "sublime --wait" ``` <br>
+``` git config --global color.ui true ``` <br>
+
+list all configs 
+``` git config --list ``` 
+
+
