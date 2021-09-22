@@ -64,7 +64,16 @@ git log help
 |---------------|
 
  |------------|
- |   working  |
+ |   Working  |
  |------------|
 </pre>
+
+
+### Atomic Commits
+1. Small commits
+2. Affect only one thing at a time
+3. Easy to find and thus debug
+4. Improves Collaboration
+
+Only add certain files to the Staging Index before commiting them
 
