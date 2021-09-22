@@ -53,4 +53,18 @@ Try:
 git log help
 ```
 
+### Three trees (areas for code)
+<pre>
+ |------------|
+ | Repository |
+ |------------|
+
+|---------------|
+| Staging Index |
+|---------------|
+
+ |------------|
+ |   working  |
+ |------------|
+</pre>
 
