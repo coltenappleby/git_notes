@@ -1,2 +1,6 @@
 access.log
+.DS_Store
+*.zip
+*.log
+log/*.log.[0-9]
 #git_ignore.md
