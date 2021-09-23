@@ -6,6 +6,10 @@ What if we don't git track some files
 2. List of rules of what files to ignore
 3. Changes made to these files will be ignored by git
 
+Where does the git ignore file go? 
+* should go in the working directory
+* should be called .gitignore
+
 What kinds of files would you want to ignore?
 * Log files that change often
 * temporary files
